@@ -1,17 +1,9 @@
 {include file='user/main.tpl'}
 
-
-
-
-
-
-
 <main class="content">
     <div class="content-header ui-content-header">
         <div class="container">
             <h1 class="content-heading">充值结果</h1>
-
-
         </div>
     </div>
     <div class="container">
@@ -25,7 +17,7 @@
                             {else}
                                 <p>正在处理您的支付，请您稍等。此页面会自动刷新，或者您可以选择关闭此页面，余额将自动到账</p>
                                 <script>
-                                    setTimeout('window.location.reload()',5000);
+                                    setTimeout('window.location.reload()', 5000);
                                 </script>
                             {/if}
                         </div>
@@ -35,9 +27,5 @@
         </section>
     </div>
 </main>
-
-
-
-
 
 {include file='user/footer.tpl'}
